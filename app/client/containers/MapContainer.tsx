@@ -3,7 +3,6 @@ import React, { useEffect, useRef } from 'react';
 import { Layout } from 'antd';
 import { useForm } from 'antd/lib/form/Form';
 import { LatLngTuple, Marker } from 'leaflet';
-// import Geocode from 'react-geocode';
 import { MapContainer as Wrapper, TileLayer } from 'react-leaflet';
 import { useDispatch, useSelector } from 'react-redux';
 import socketClient from 'socket.io-client';
@@ -14,11 +13,6 @@ import { fetchStations, updateStationStatuses } from '@/store/ducks/stations/act
 import { StationStatus } from '@/store/ducks/stations/types';
 import { ApiSocketResponse, ApplicationState, StationFormValues } from '@/types';
 import { findNearest, geoCode } from '@/utils';
-
-// Geocode.setApiKey('AIzaSyCqbKctFFXeKZt_N4XxEsJH2MQ3M8nMGvI');
-// Geocode.setLanguage('no');
-// Geocode.setRegion('no');
-// Geocode.enableDebug();
 
 /**
  * MapContainer handles logic behind what's displayed on the map.
