@@ -1,0 +1,12 @@
+{
+  "short_name": "Simple Bikesharing App",
+  "name": "Web site displaying real time data of the bikesharing stations in Oslo, Norway",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": "."
+}

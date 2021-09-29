@@ -1,0 +1,27 @@
+
+
+.sidebar {
+    position: absolute;
+    right: 0;
+    background-color: rgba(0, 0, 0, .8);
+    padding: 1rem;
+    height: 100%;
+    z-index: 999;
+    
+    .ant-typography, .ant-form-item-label > label {
+        color: #fff;
+    }
+
+    .ant-form {
+        .submit-btn {
+            width: 100%;
+        }
+    }
+
+    .ant-layout-sider-zero-width-trigger {
+        z-index: 10000;
+        right: 0;
+        left: -36px
+    }
+    
+}

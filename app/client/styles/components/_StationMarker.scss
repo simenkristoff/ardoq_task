@@ -1,0 +1,29 @@
+
+
+.station-marker {
+    .leaflet-popup-content {
+        margin: 0;
+        .ant-row {
+            > .ant-col {
+                text-align: center;
+            }
+        }
+    }
+
+    .station-marker-inner {
+        position: relative;
+        text-align: center;
+
+        > span.info {
+            margin-right: .025rem;
+            color: #fff;
+            position: relative;
+            top: 23px
+        }
+    }
+
+    a.leaflet-popup-close-button {
+        top: .1rem;
+        right: .1rem;
+    }
+}
