@@ -15,6 +15,9 @@ Dette er en applikasjon som henter sanntidsdata fra Oslo Bysykkel sitt sanntidsa
 For å kjøre prosjektet må du først ha en *.env* fil. Denne filen kan du lage ved å kopiere innholdet fra [.env.example](./.env.example).
 
 ## Kommandoer
+### `npm install`
+
+Installerer og klargjør nødvendige pakker
 
 ### `npm run start`
 
