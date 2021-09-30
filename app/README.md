@@ -12,7 +12,7 @@ Dette er en applikasjon som henter sanntidsdata fra Oslo Bysykkel sitt sanntidsa
 
 
 ## Miljøvariabler
-For å kjøre prosjektet må du først ha en *.env* fil. Denne filen kan du lage ved å kopiere innholdet fra [.env.example](./.env.example).
+For å kjøre prosjektet må du først ha en *.env* fil. Denne filen kan du lage ved å kopiere innholdet fra [.env.example](./.env.example). Om du ønsker å bruke funksjonen "finn nærmeste stasjon" må du skrive inn en gyldig *Google Geocoding API-key* i feltet *GEO_LOCATION_API*.
 
 ## Kommandoer
 ### `npm install`
